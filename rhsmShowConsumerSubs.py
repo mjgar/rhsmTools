@@ -138,7 +138,7 @@ for consumer in consumerdata:
 		startDate = products["startDate"]
 		endDate = products["endDate"]
 		quantity = products["quantity"]
-		print "%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s" % (consumer["name"],consumer["uuid"],consumerType,contractNumber,productName,startDate,endDate,quantity,lastCheckin,username,sockets,cpus,ipaddr)
+		print '%s,%s,%s,%s,"%s",%s,%s,%s,%s,%s,%s,%s,%s' % (consumer["name"],consumer["uuid"],consumerType,contractNumber,productName,startDate,endDate,quantity,lastCheckin,username,sockets,cpus,ipaddr)
 
 
 sys.exit(0)
